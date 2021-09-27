@@ -12,7 +12,7 @@ let data=a.reduce((acc, item, currentIndex) => {
     // console.log('currentIndex',currentIndex);
     return (acc + item.duration);
 }, 0);
-console.log(data);
+// console.log(data);
 
 let test=a.map((value,index)=>{
    // return value;
