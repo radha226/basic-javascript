@@ -13,6 +13,7 @@
 // [...new Set([1,2,3])]
 
 // // Node List → Array
+
 // [...nodeList]
 
 // // Arguments → Array
