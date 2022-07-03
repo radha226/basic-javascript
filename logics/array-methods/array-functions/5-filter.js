@@ -19,8 +19,8 @@ const newXYZ=xyz.filter((element)=>{
 // console.log("newXYZ", newXYZ);
 
 //object
-let abc=[{name:"sham", age:14},{name:"raj", age:15},{name:"ram", age:19}];
-const newABC=abc.filter((value)=>{
-    return value.name=="raj";
+let abc=[{name:"sham", age:14},{name:"raj", age:15},{name:"raj", age:19},{name:"raj", age:19}];
+const newABC=abc.map((value)=>{
+    return  value.name=="raj" && value.age==19;
 });
 console.log("newABC",newABC);
